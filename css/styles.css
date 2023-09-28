@@ -11,8 +11,6 @@
   --NAVY-BLUE-MODAL: #abacb3;
   --GREY: #6d6d7b;
   --DAIRY: #FCFCFC;
-
-
 }
 
 body {
@@ -84,8 +82,9 @@ img {
   background-color: var(--IRIS);
   color: var(--WHITE);
   cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-
 
 /* NAV */
 .navigate {
@@ -571,7 +570,7 @@ address a {
 
 .text-subscriber {
   margin-bottom: 16px;
-  font-weight: 500;
+    font-weight: 500;
   color: var(--WHITE);
 }
 
@@ -604,9 +603,7 @@ address a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--WHITE);
-  background-color: var(--IRIS);
-  border: none;
+    border: none;
   border-radius: 4px;
   font-weight: 500;
 }
@@ -688,7 +685,7 @@ address a {
 }
 
 .modal-box-general {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label{
@@ -717,7 +714,8 @@ address a {
   color: var(--NAVY-BLUE);
 }
 
-.modal-input:hover {
+.modal-input:hover,
+.modal-input:focus{
   color: var(--IRIS);
 }
 
@@ -748,6 +746,10 @@ address a {
 
 .modal-comment-field:focus {
   border-color: var(--IRIS);
+}
+
+.box-comment{
+  margin-bottom: 16px;
 }
 
 .box-agreement{
