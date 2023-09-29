@@ -730,7 +730,7 @@ address a {
 }
 
 .modal-input:hover+.modal-icon {
-  color: var(--IRIS);
+  fill: var(--IRIS);
 }
 
 .modal-comment-field {
