@@ -570,7 +570,7 @@ address a {
 
 .text-subscriber {
   margin-bottom: 16px;
-    font-weight: 500;
+  font-weight: 500;
   color: var(--WHITE);
 }
 
@@ -603,7 +603,7 @@ address a {
   display: flex;
   justify-content: center;
   align-items: center;
-    border: none;
+  border: none;
   border-radius: 4px;
   font-weight: 500;
 }
@@ -677,7 +677,7 @@ address a {
   fill: var(--WHITE);
 }
 
-.modal-caption{
+.modal-caption {
   font-weight: 500;
   text-align: center;
   color: var(--NAVY-BLUE);
@@ -688,8 +688,8 @@ address a {
   margin-bottom: 8px;
 }
 
-.modal-label{
-  font-size: 12px; 
+.modal-label {
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--LIGHT-SLATE);
@@ -705,18 +705,18 @@ address a {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  border-color: var(--NAVY-BLUE);
+  color: var(--NAVY-BLUE);
   border-radius: 4px;
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border-color: var(--NAVY-BLUE);
-  color: var(--NAVY-BLUE);
 }
 
 .modal-input:hover,
-.modal-input:focus{
-  color: var(--IRIS);
+.modal-input:focus {
+  border-color: var(--IRIS);
 }
 
 .modal-icon {
@@ -748,12 +748,12 @@ address a {
   border-color: var(--IRIS);
 }
 
-.box-comment{
+.box-comment {
   margin-bottom: 16px;
 }
 
-.box-agreement{
-  margin-bottom: 24px; 
+.box-agreement {
+  margin-bottom: 24px;
 }
 
 .user-agreement {
@@ -762,7 +762,7 @@ address a {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--LIGHT-SLATE);
-  }
+}
 
 .modal-checkbox {
   width: 16px;
@@ -776,11 +776,11 @@ address a {
   fill: transparent;
 }
 
-.modal-agreement-input:checked .modal-checkbox{
+.modal-agreement-input:checked .modal-checkbox {
   color: var(--OCEAN);
-  border: none; 
-  fill:var(--CLOUD)
-  }
+  border: none;
+  fill: var(--CLOUD)
+}
 
 .modal-agreement-link {
   color: var(--IRIS)
@@ -797,4 +797,3 @@ address a {
   border: none;
   border-radius: 4px;
 }
-
