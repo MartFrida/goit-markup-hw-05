@@ -508,6 +508,7 @@ address a {
 .footer .container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-slogo {
@@ -711,6 +712,7 @@ address a {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.03);
 }
 
 .modal-input:hover,
@@ -725,7 +727,10 @@ address a {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: currentColor;
+}
+
+.modal-input:hover+.modal-icon {
+  color: var(--IRIS);
 }
 
 .modal-comment-field {
